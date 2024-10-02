@@ -1,0 +1,25 @@
+public class Bookshelf
+{
+   public static void main(String[] args)
+   {
+      EBook[] bookshelf = new EBook[2];
+      
+      EBook eb1 = new EBook();
+      eb1.setId(101);
+      eb1.setTitle("Robin Hood");
+      
+      EBook eb2 = new EBook();
+      eb2.setId(102);
+      eb2.setTitle("King Arthur");     
+      
+      
+      bookshelf[0] = eb1;
+      bookshelf[1] = eb2;
+      
+      System.out.println(eb1.getID());
+      System.out.println(eb1.getTitle());
+      System.out.println();
+      System.out.println(eb2.getID());
+      System.out.println(eb2.getTitle());
+      }
+  }
